@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Gallery </title>
+
+<style type="text/css">
+	
+/* +++++++++ LAYOUT +++++++++ */
+
+body { 
+	background-color: #E0DEDE; 
+	margin: 0px;
+	font-style: Georgia; 
+	font-size: 5px;
+}
+
+	
+.header {
+	background-color: #fff;
+    margin: 10px; 
+    height: 80px; 
+    border-radius:5px; 
+    font-size: 70px; 
+    font-weight: bold;
+}
+
+.header img{
+	height: 95px; 
+	width: 150px; 
+	margin-bottom: 5px; 
+	margin-top: 0px;
+}
+
+.nav1 {
+	  background-color: #4C5AD8; 
+      height: 40px; 
+      border-radius:5px; 
+      margin: 10px;
+      padding-left: 400px;
+      position: sticky;
+      top: 0px;
+}
+
+.nav1 ul {display: flex;}
+
+.nav1 ul li {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left: 20px ;
+	
+}
+
+
+.nav1 ul li a {
+	           justify-content:space-between; 
+	           color: #fff; 
+	           font-size: 15px; 
+	           word-spacing: 2px; 
+	           text-decoration:none; 
+	           letter-spacing: 2px; 
+	           padding:10px;
+	       }
+
+.nav1 ul li a:hover {
+	                  color:#000; 
+	                  font-size:20px;
+                    background-color: snow;
+                    border: 1px solid #d2d2d2;
+                    border-radius: 13px;
+	              }
+
+.nav1 ul li a:active {
+	                   color:turquoise; 
+	                   font-size:18px;
+	               }
+
+
+   #gal  {
+          margin: 10px;
+          font-size:30px;
+          text-align: center;
+          background-color:aqua;
+         }
+
+.gallery2 {
+           flex-wrap: wrap;
+           display: flex;
+           justify-content: space-evenly;
+           
+          }
+.gallery2 img{
+              padding: 12px; 
+              width:425px; 
+              height:395px;
+             }
+
+
+  /* +++++++++ FOOTER +++++++++ */
+
+.footer a {
+           display: flex;
+           font-size:25px;
+           color:aqua;
+           margin-left: 5px;
+           text-decoration: none;
+         }
+
+.email {
+        margin-left: 5px;
+        display: inline;
+        padding-left: 3px;
+      }
+
+.footer p {
+	         font-size: 17px;
+	         display:inline;
+	         color: snow;
+	         margin-left: 5px;
+          }
+
+.footer h1 {
+            font-size: 25px;
+            padding: 4px 0px 0px 5px;
+
+           } 
+
+.footer h2 {
+            font-size: 25px;
+            padding: 4px 0px 0px 5px;
+            text-decoration: underline;
+           } 
+
+
+.footer h3 {
+            font-size: 25px;
+            padding: 4px 0px 0px 5px;
+           } 
+
+
+svg {
+	   padding: 0px 10px 20px 10px;
+       border-radius:5px;
+       fill: whitesmoke;
+      }
+
+
+.footer { 
+	     margin: 10px ; 
+	     background-color: #4C5AD8; 
+	     height:453px; 
+	     border-radius: 5px;
+        }
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+<div class="header"> 
+<a href="index.html"><img src="images/logo2.png"></a> 
+
+
+
+ </div>
+
+<div class="nav1"> 
+  <ul>
+
+  	<li><a href="index.html">Home</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+    <li><a href="gallery2.html">Gallery</a></li>
+
+   </ul>
+ 
+</div>
+
+<div id="gal">
+
+	<h3>Gallery</h3>
+	
+</div>
+
+<div class="gallery2">
+
+	<img src="images/gf.jpg" >
+	<img src="images/bed.jpg">
+	<img src="images/hn.jpg" >
+	<img src="images/injection.jpg" >
+	<img src="images/gloves.jpg" style="width: 420px;" >
+	<img src="images/test.jpg" style="height: 390px;">
+
+
+
+</div>
+
+
+
+
+
+ <div class="footer">
+
+ 	<h2>Useful links </h2>
+	<a href="https://www.moh.gov.gh/">Ministry of Health</a>
+	<a href="https://www.ghs.gov.gh/">Ghana Health Service</a>
+	<a href="https://www.nhis.gov.gh/">National Health Insurance Scheme</a>
+	<a href="https://www.who.int/">The World Health Organization</a>
+
+<h3><u>Contact Information</u></h3>
+
+<img src="images/email.png" class="email"><p> Info@healthisassured.pri.gh</p>
+
+<img src="images/location.png" class="location"><p> P.O.BOX 239 East Legon </p>
+
+
+
+<h2><u>Follow Us</u></h2>	
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="50px"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
+
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="50px"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"></path></svg>
+
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50px"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>	
+</div>
+
+
+
+</body>
+</html>
